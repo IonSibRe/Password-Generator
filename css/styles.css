@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow: hidden;
+}
+
+.main {
+  background: #288c86;
+  background: -webkit-gradient(linear, left bottom, left top, from(#288c86), to(#c1f1ee));
+  background: linear-gradient(0deg, #288c86 0%, #c1f1ee 100%);
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.form-card {
+  width: 400px;
+  padding: 2rem 0 3rem 0;
+  border-radius: 10px;
+  background-color: #032b46;
+}
+
+.form-card .form-inner-wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.form-card .password-main-heading {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 400;
+  letter-spacing: 0.25rem;
+  color: #fff;
+}
+
+.form-card .result-wrap {
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff;
+}
+
+.form-card .result {
+  -webkit-box-flex: 7;
+      -ms-flex: 7;
+          flex: 7;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 3.5rem;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+.form-card .copy-button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.form-card .option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.form-card .input[type="text"] {
+  margin: 0.5rem 0;
+}
+
+.form-card .input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+}
+
+.form-card label {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.form-card .submit-wrap {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.form-card .submit-button {
+  width: 100%;
+  padding: 1.25rem 0;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    overflow-y: auto;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

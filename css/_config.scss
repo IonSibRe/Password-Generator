@@ -1,0 +1,48 @@
+// Imports
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+// Mixins
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Variables
+
+// Sizings
+$h1-size: 7rem;
+$h2-size: 4rem;
+$h3-size: 3.25rem;
+$paragraph-size: 2rem;
+$a-size: 2.25rem;
+
+// Else
+$default-font-family: "Open Sans", sans-serif;
+
+// Default Resets
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $default-font-family;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

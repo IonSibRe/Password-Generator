@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Font Awesome -->
+        <script
+            src="https://kit.fontawesome.com/018eecbe50.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>Password Generator</title>
+    </head>
+    <body>
+        <main class="main">
+            <div class="container">
+                <div class="form-card">
+                    <div class="form-inner-wrap">
+                        <h1 class="password-main-heading">
+                            Password Generator
+                        </h1>
+                        <div class="result-wrap">
+                            <textarea class="result" readonly></textarea>
+                            <button class="copy-button" type="button">
+                                <i class="far fa-clipboard fa-2x"></i>
+                            </button>
+                        </div>
+                        <form>
+                            <div class="settings">
+                                <div class="option">
+                                    <label for="length">Length</label>
+                                    <input
+                                        type="text"
+                                        name="text"
+                                        class="input"
+                                        id="length_input"
+                                        placeholder="1 - 16"
+                                    />
+                                </div>
+                                <div class="option">
+                                    <label for="uppercase">Uppercase</label>
+                                    <input
+                                        type="checkbox"
+                                        name="checkbox"
+                                        class="input"
+                                        id="uppercase_input"
+                                    />
+                                </div>
+                                <div class="option">
+                                    <label for="lowercase">Lowercase</label>
+                                    <input
+                                        type="checkbox"
+                                        name="checkbox"
+                                        class="input"
+                                        id="lowercase_input"
+                                    />
+                                </div>
+                                <div class="option">
+                                    <label for="numbers">Numbers</label>
+                                    <input
+                                        type="checkbox"
+                                        name="checkbox"
+                                        class="input"
+                                        id="numbers_input"
+                                    />
+                                </div>
+                                <div class="option">
+                                    <label for="symbols">Symbols</label>
+                                    <input
+                                        type="checkbox"
+                                        name="checkbox"
+                                        class="input"
+                                        id="symbols_input"
+                                    />
+                                </div>
+                                <div class="submit-wrap">
+                                    <button class="submit-button" type="submit">
+                                        Generate Password
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="js/password.js"></script>
+    </body>
+</html>
