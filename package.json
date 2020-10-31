@@ -1,0 +1,15 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "description": "Simple Password generator with 0-16 characters password length.",
+  "main": "password.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://IonSibRe.github.io/Password-Generator",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
